@@ -6,9 +6,11 @@
 /*   By: gugomes- <gugomes-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/02 18:20:55 by gugomes-          #+#    #+#             */
-/*   Updated: 2024/10/04 19:43:34 by gugomes-         ###   ########.fr       */
+/*   Updated: 2024/10/06 12:45:33 by gugomes-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 void	ft_putchar(char c);
 
@@ -26,7 +28,6 @@ int	ft_strlen(char *str)
 }
 /*
 #include <stdio.h>
-#include <unistd.h>
 
 void ft_putchar(char c)
 {
