@@ -6,7 +6,7 @@
 /*   By: gugomes- <gugomes-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/03 10:59:47 by gugomes-          #+#    #+#             */
-/*   Updated: 2024/10/06 12:17:45 by gugomes-         ###   ########.fr       */
+/*   Updated: 2024/10/06 13:11:19 by gugomes-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ int	*ft_range(int min, int max)
 {
 	int				index;
 	int				*array;
-	unsigned int	min_sign;
-	unsigned int	max_sign;
 
 	if (min >= max)
 		return (NULL);
