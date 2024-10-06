@@ -6,31 +6,31 @@
 /*   By: gugomes- <gugomes-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/02 13:04:15 by gugomes-          #+#    #+#             */
-/*   Updated: 2024/10/06 13:04:40 by gugomes-         ###   ########.fr       */
+/*   Updated: 2024/10/06 13:58:57 by gugomes-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
-//#include <time.h>
+// #include <stdio.h>
+// #include <time.h>
 
 int	ft_iterative_factorial(int nb)
 {
-	unsigned int	result;
+	int	result;
 
-	if (nb == 0)
-		return (1);
-	result = nb;
+	if (0 > nb)
+		return (0);
+	result = 1;
 	while (nb > 1)
 	{
-		nb--;
 		result = nb * result;
+		nb--;
 	}
 	return (result);
 }
 /*
 int main(void)
 {
-    int nb = 0;  // Valores muito grandes podem causar overflow
+    int nb = 12;  // Valores muito grandes podem causar overflow
     clock_t start, end;
     double cpu_time_used;
 
