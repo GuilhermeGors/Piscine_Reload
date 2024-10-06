@@ -6,7 +6,7 @@
 /*   By: gugomes- <gugomes-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/02 19:36:48 by gugomes-          #+#    #+#             */
-/*   Updated: 2024/10/04 19:56:51 by gugomes-         ###   ########.fr       */
+/*   Updated: 2024/10/06 13:34:24 by gugomes-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ void	ft_sort_params(int argc, char *argv[])
 #include <unistd.h>
 void ft_putchar(char c)
 {
-    write(1, &c, 1);
+	write(1, &c, 1);
 }
 */
 
@@ -75,7 +75,7 @@ int	main(int argc, char *argv[])
 	if (argc > 1)
 	{
 		ft_sort_params(argc, argv);
-		i = 0;
+		i = 1;
 		while (i < argc)
 		{
 			ft_putstr(argv[i]);

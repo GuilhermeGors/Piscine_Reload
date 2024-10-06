@@ -6,7 +6,7 @@
 /*   By: gugomes- <gugomes-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/04 09:09:49 by gugomes-          #+#    #+#             */
-/*   Updated: 2024/10/06 12:39:10 by gugomes-         ###   ########.fr       */
+/*   Updated: 2024/10/06 13:40:43 by gugomes-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,7 @@ int	ft_display_file(char *filename, int BUFFER_SIZE)
 	while (bytes_read > 0)
 	{
 		write (1, buffer, bytes_read);
+		bytes_read = read(file, buffer, BUFFER_SIZE);
 	}
 	if (bytes_read < 0)
 	{
