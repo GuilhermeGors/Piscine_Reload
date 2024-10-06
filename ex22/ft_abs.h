@@ -1,17 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_abs.c                                           :+:      :+:    :+:   */
+/*   ft_abs.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gugomes- <gugomes-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/03 13:56:59 by gugomes-          #+#    #+#             */
-/*   Updated: 2024/10/06 12:21:48 by gugomes-         ###   ########.fr       */
+/*   Created: 2024/10/06 12:54:41 by gugomes-          #+#    #+#             */
+/*   Updated: 2024/10/06 12:54:43 by gugomes-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
-#define ABS(Value) ((Value) < 0 ? -(Value) : (Value))
+#ifndef FT_ABS_H
+# define FT_ABS_H
+
+# define ABS(Value) ((Value) < 0 ? -(Value) : (Value))
+
+#endif
 /*
 #include <stdio.h>
 

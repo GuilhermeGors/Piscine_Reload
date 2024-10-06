@@ -6,11 +6,9 @@
 /*   By: gugomes- <gugomes-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/02 18:20:55 by gugomes-          #+#    #+#             */
-/*   Updated: 2024/10/06 12:45:33 by gugomes-         ###   ########.fr       */
+/*   Updated: 2024/10/06 12:55:45 by gugomes-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_putchar(char c);
 
